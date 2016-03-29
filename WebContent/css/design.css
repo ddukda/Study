@@ -1,0 +1,144 @@
+@charset "euc-kr";
+body {
+  font: normal 1em "돋움",Dotum;
+  background: #fff;
+  color: #666;
+}
+
+#gnb {
+  width:700px;
+  margin: 0;
+  padding: 5px 6px;
+  background: #000;
+  line-height: 100%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background:-webkit-gradient(linear, 80% 20%, 10% 20%, from(#999), to(#333));
+  background:gradient(linear, 80% 20%, 10% 20%, from(#999), to(#333));
+}
+
+#gnb li {
+  margin: 0 5px;
+  padding: 2px 8px;
+  float: left;
+  position: relative;
+  list-style-type: none;
+}
+
+#gnb a {
+  display: block;
+  margin: 0;
+  padding:  8px 20px;
+  font-size:18px;
+  font-weight: bold;
+  color: #eee;
+  text-decoration: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-shadow: 0 2px 2px rgba(10,10,10, .5); /* 1Depth 메뉴에 2px 그림자효과 줌 */
+}
+
+#gnb a:hover {
+  background: #000;
+  color: #fff;
+}
+
+#gnb li:hover > a {
+  color: #fff;
+  background:-webkit-gradient(linear, 80% 20%, 10% 20%, from(#33ffff), to(#3399ff));
+  background:gradient(linear, 80% 20%, 10% 20%, from(#33ffff), to(#3399ff));
+}
+
+#gnb ul li:hover a, #gnb li:hover li a {
+  background: none;
+  border: 0 none;
+  color: #333;
+  font-size:14px;
+  font-weight: normal;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#gnb ul a:hover {
+  background: #0066cc !important;
+  color: #fff !important;
+  -webkit-border-radius: 15px;
+  -moz-border-radius:  15px;
+  border-radius: 15px;
+}
+
+/* #gnb li:hover된 요소의 자식인 ul요소 선택 마우스 롤오버시 드롭다운 */
+#gnb li:hover > ul {
+  display: block;
+}
+
+/* 2Depth 메뉴 레이아웃 그리기*/
+#gnb ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  top: 36px;
+  left: 20px;
+  background: #eee;
+  border: solid 1px #bbb;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 5px rgba(10,10,10, .2);
+  -moz-box-shadow: 0 1px 5px rgba(10,10,10, .2);
+  box-shadow: 0 1px 5px rgba(10,10,10, .2);
+}
+
+#gnb ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#gnb ul a {
+  font-weight: normal;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* float 해제 */
+#gnb:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.lnb {
+  width: 200px;  /* 기본 메뉴 width 사이즈 */ margin: 0; padding: 0; 
+ }
+.lnb li {
+  list-style-type: none;  /* 기본 리스트타입에 있는 내용을 보여주지 않게 처리 */
+  margin-bottom: 2px; 
+ }
+.lnb li a { 
+  display: block; /* 원래 a태그는 inline이지만 마우스 선택 영역을 잡기 위하여 변경 */ 
+  width: 100%; 
+  padding: 5px 0; 
+  text-indent: 8px; 
+  text-decoration: none; 
+  color: #666; 
+  font: bold 12px "굴림"; 
+  background: #ccc; 
+  border: 1px solid #aaa; /* 기본적인 border값을 준 후 테두리를 둥글게 처리 */ 
+  -moz-border-radius:15px; 
+  -webkit-border-radius:15px; 
+  -border-radius:15px; 
+} 
+.lnb li a:hover { 
+  background: #666;
+  color: #fff; 
+}
+/* .lnb li.last a {  */
+/*   border: 1px solid red;  */
+/* } */

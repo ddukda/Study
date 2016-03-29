@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------------------------
+* Filename : common.css
+* Description : 공통, 레이아웃 포함
+------------------------------------------ */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body, table, tr, td, select, input, div, form, textarea {
+	font-family: 'Nanum Pen Script';
+	font-size: 12pt;
+	line-height: 150%
+	
+}
+
+body {-webkit-text-size-adjust:none}
+
+#wrap {
+/* 	width:360px; */
+/* 	height:640px; */
+	width:100%;
+	height:100%;
+}
+
+#div_content {
+	width:100%;
+	height: 100%;
+}
+
+#left_menu {
+	width: 20%;
+	height: auto;
+	position: fixed;
+	left: -10%;
+	top: 3%;}
+
+#left_menu_content {
+	width: 10%;
+	float: left;
+	background-color: #deffff;
+	height: auto;
+}
+
+#left_menu_button {
+	float: left;
+	position: relative;
+	width: 5%;
+	height: auto;
+	background: url(../images/left_menu_button1.gif);
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+#div_header {
+	height : 8%;
+	background-color: #00b0ff;
+	font: bold;
+	font-size:25pt;
+	text-align: center;	
+}
+
+#div_playfeelring {
+	margin-top:1%;
+	height: 10%;
+	background-color: #ff20b2;
+	font: bold;
+	font-size: 12pt;
+	text-align: right;
+}
+
+#div_etiq {
+	margin-top:1%;
+	height: 6%;
+	background-color: #cc99ff;
+	font: bold;
+	font-size: 12pt;
+	text-align: right;
+	
+}
+
+#div_banner {
+	margin-top:1%;
+	height: 15%;
+	background-color: #00cc33;
+	font: bold;
+	font-size: 12pt;
+	text-align: right;
+	
+}
+
+#list {
+	margin-top:1%;
+	height: 50%;
+	background-color: #ffcc66;
+	font: bold;
+	font-size: 12pt;
+	text-align: right;
+	
+}
+
+#div_content:after { content:""; clear:both; display:block; }
+
+ul, li{list-style-type: none; margin: 0px; padding: 0px;}
+
+#touchSlider {overflow: hidden; width: 100%; bottom: 0; left: 0; bottom: 0; left: 0; position: relative; height: 0; padding-bottom: 25%;}
+#touchSlider ul {float: left; width: 100%;  overflow: hidden; }
+#touchSlider ul li {float: left; width: 100%; }
+#touchSlider ul li img{width: 100%; overflow: hidden; max-width:100%; line-height: 100%}
+#touchSlider:after { content:""; clear:both; display:block; }

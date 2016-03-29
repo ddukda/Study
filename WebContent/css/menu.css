@@ -1,0 +1,7 @@
+@charset "euc-kr";
+#treeArea{width:100%;margin-top:10px;}
+#treeArea table{width:100%;}
+#treeArea table td.area1{width:300px;border:1px solid #eaeaea;}
+#treeArea table td.area2{padding-left:10px;}
+#treeArea table td.area3{width:450px;}
+#treeArea table td.area4{padding-left:20px;}

@@ -1,0 +1,40 @@
+@charset "euc-kr";
+/* CSS Document */
+
+/* ------------------------------------------
+* Filename : common.css
+* Description : 공통, 레이아웃 포함
+------------------------------------------ */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	color: #fff;
+	position: relative;
+	bottom: 0pt;
+	height: 100px;
+	background-color: black;
+	width: 100%;
+	z-index: 99;
+}
+
+#left {
+	width: 20%;
+	background-color: red;
+	position: absolute;
+	height: 100%;
+	color: white;
+}
+
+#body {
+	margin-left:20%;
+	width: 80%;
+	background-color: blue;
+	position: absolute;
+	height: 100%;
+	text-align: center;
+	color: white;
+}

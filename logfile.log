@@ -1,0 +1,24 @@
+[2014-08-29 11:17:44,117] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:17:44,124] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:18:12,105] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:18:12,109] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:18:49,897] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:18:49,901] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:19:00,429] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:19:00,435] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:20:18,667] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:20:18,672] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:20:33,779] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:20:33,785] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:20:51,481] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:20:51,485] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:22:08,419] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=*/*}, null>]
+[2014-08-29 11:22:08,423] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:25:00,361] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=text/html, application/xhtml+xml, */*}, null>]
+[2014-08-29 11:25:00,367] Load response for GET http://211.115.75.243:8081/web2/svc/ban/ban.jsp?id=abc
+[2014-08-29 11:26:41,326] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=text/html, application/xhtml+xml, */*}, null>]
+[2014-08-29 11:26:41,331] Load response for GET http://211.115.75.243:8081/
+[2014-08-29 11:28:04,943] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=text/html, application/xhtml+xml, */*}, null>]
+[2014-08-29 11:28:04,949] Load response for GET http://211.115.75.243:8081/
+[2014-08-29 11:28:24,171] Get page for window named '', using WebRequest[<url="http://211.115.75.243:8081/", GET, EncodingType[name=application/x-www-form-urlencoded], [], {Accept-Encoding=gzip, deflate, Accept=image/gif, image/jpeg, image/pjpeg, image/pjpeg, */*}, null>]
+[2014-08-29 11:28:24,177] Load response for GET http://211.115.75.243:8081/

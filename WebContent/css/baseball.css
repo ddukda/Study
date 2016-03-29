@@ -1,0 +1,22 @@
+@charset "euc-kr";
+/* CSS Document */
+
+/* ------------------------------------------
+* Filename : common.css
+* Description : 공통, 레이아웃 포함
+------------------------------------------ */
+
+legend, caption {overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999em}
+fieldset {border:0;}
+.tablecenter {text-align: center; padding-top: 3px; font-weight: bold;}
+table{width:800px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-spacing:0} 
+table td,table th{border:0;border-top:1px solid #ccc;border-left:1px solid #ccc}
+label {cursor:pointer;}
+/* pageing */
+.pageing{text-align:center;margin-top:16px;color:#999;line-height:16px;font-size:12px;}
+.pageing a:link, .pageing a:visited{color:#999;}
+.pageing a:hover{color:#ec008c;}
+.pageing img{vertical-align:middle;margin:-1px 2px 0 2px;*margin-top:0;}
+.pageing .pageNo{display:inline;margin:0;}
+.pageing .pageNo span{padding:0 5px;}
+.pageing .pageNo span.on{font-weight:bold;color:#ec008c;}
