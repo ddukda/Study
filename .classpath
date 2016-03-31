@@ -12,6 +12,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ext-lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/lib"/>
-	<classpathentry kind="lib" path="D:/양진호 툴 모음/tocmat data base resource factory file/feel_commons_tcCR-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/TOOL/tocmat data base resource factory file/commons-tcCR-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/workspace/Study/commons-codec-1.7.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

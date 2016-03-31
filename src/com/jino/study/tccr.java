@@ -1,7 +1,5 @@
 package com.jino.study;
 
-import com.kr.wincom.enc.*;
-
 public class tccr {
 
 	public static void main(String args[]){
@@ -19,11 +17,11 @@ public class tccr {
 //	      }
 
 	    	String str = "onion";
-	      String encryptAES = comEncMake.encrypt(key, str);
+//	      String encryptAES = comEncMake.encrypt(key, str);
 
 	      System.out.println("String ARG :: " + str);
-	      System.out.println("encryp AES :: " + encryptAES);
-	      System.out.println("decryp AES :: " + comEncMake.decrypt(key, encryptAES));
+//	      System.out.println("encryp AES :: " + encryptAES);
+//	      System.out.println("decryp AES :: " + comEncMake.decrypt(key, encryptAES));
 	    }
 	    catch (Exception e) {
 	      e.printStackTrace();
