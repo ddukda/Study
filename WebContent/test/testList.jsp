@@ -82,5 +82,10 @@ private static void printList(List<TestModel> list, int num) {
 			<tr>      </tr>          	  
 
 	</table>
+	<div class="section">			
+		<!-- <div class="eventcont">  검은줄이 생겨서 주석처리함-->
+		<iframe id="externalFrame" title="인기 TOP100" src="http://222.231.13.106/groupRing/login_main.do?lgNAME=ua7B9sf2&ctn=MDEwLTgwODAtNjc1Ng==&brand=TEcgVSs=" name="ifrm" width="100%" height="3000" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+		<!-- </div> 검은줄이 생겨서 주석처리함 -->			
+	</div>
 </body>
 </html>

@@ -9,7 +9,7 @@ public class patchSplit {
 
 	public static void main(String[] args) {
 		String filePath = patchSplit.class.getResource(".").getPath() + "/list.txt";
-		
+//		System.out.println(filePath);
 		try {
 			BufferedReader in = new BufferedReader(new FileReader(filePath));
 			String s;

@@ -12,6 +12,8 @@ import java.net.URLEncoder;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import sun.misc.BASE64Encoder;
+
 
 public class TESTTP {
 //	public static void main(String args[]){
@@ -93,9 +95,21 @@ public class TESTTP {
 //	}
 	
 	
-	public static void main(String[] args){
-		for(int i=0; i<10; i++)
-		System.out.println((int)(Math.random()*10));	
-		
-	}
+//	public static void main(String[] args){
+//		for(int i=0; i<10; i++)
+//		System.out.println((int)(Math.random()*10));	
+//		
+//	}
+	
+	
+	
+
+ 	public static void main(String args[]){
+ 		 BASE64Encoder base64    = new BASE64Encoder();
+ 	     byte[] pwhash           = "111111111111111adfsf".getBytes();
+ 	    System.out.println("" + pwhash);
+ 	     String szRst            = new String(base64.encode(pwhash));
+ 		System.out.println(szRst);
+ 	}
+ 	
 }
